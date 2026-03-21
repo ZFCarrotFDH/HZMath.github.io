@@ -9,7 +9,7 @@ hidden: false
 comments: true
 draft: false
 categories:
-  - Mathematics
+    - Mathematics
 tags:
     - Examination
     - Competition
@@ -17,16 +17,18 @@ tags:
 
 ## 填空题
 
-| 题号 | 答案 |
-| :----: | :----: |
-| 1 | $M = N$ |
-| 2 | $2023$ |
-| 3 | $\frac{1 + \sqrt{3} \cdot 2023}{\sqrt{3} - 2023}$ |
-| 4 | $\mathbb{R}$ |
-| 5 | $27$ |
-| 6 | $4$ |
-| 7 | $\frac{1}{2}$ |
-| 8 | $5$ |
+| 题号 |                        答案                         |
+|:--:|:-------------------------------------------------:|
+| 1  |                      $M = N$                      |
+| 2  |                      $2023$                       |
+| 3  | $\frac{1 + \sqrt{3} \cdot 2023}{\sqrt{3} - 2023}$ |
+| 4  |                   $\mathbb{R}$                    |
+| 5  |                       $27$                        |
+| 6  |                        $4$                        |
+| 7  |                   $\frac{1}{2}$                   |
+| 8  |                        $5$                        |
+
+由于第 4 题没有说明 $a, b, c > 0$, 故答案为 $\mathbb{R}$, 更改后为 $[\frac{3}{2}, +\infty)$.
 
 ## 解答题
 
@@ -146,14 +148,57 @@ $\therefore f(x)$ 单调递增.
 
 本题有误, 由于 $L$ 函数的条件写错为“实数 $s, t$”导致本题无解, 条件应改为“正数 $s, t$”
 
-答案暂不提供
+改正后答案如下:
+
+#### 小题答案速览
+
+1. 是
+2. $a \in [1, +\infty)$
+3. 证明略
+
+#### 详细解析
+
+##### 第 (1) 问
+
+$\forall s, t > 0$, 显然 $h(s) = s^3 + s >0, h(t) = t^3 + t >0$
+
+且 $h(s) + h(t) - h(s + t) = -3st(s+t) < 0 \Rightarrow h(s) + h(t) < h(s + t)$
+
+$\therefore h(x)$ 是“L 函数”.
+
+##### 第 (2) 问
+
+$\because \forall x > 0, g(x) = a(e^x - 1) + (e^{-x}-1) = (e^x -1)(a - e^{-x}) > 0$
+
+$\therefore a > e^{-x} \forall x > 0$ 恒成立, 即 $a \ge 1$
+
+又 $\forall s, t > 0, g(s)+g(t) < g(s+t) \Rightarrow (e^s - 1)(e^t - 1)(a + \frac{1}{e^{s+t}})>0$
+
+$\therefore a \ge 0$
+
+综上, $a \in [1, +\infty)$
+
+##### 第 (3) 问
+
+当 $x \in \mathbb{N^*}$ 时, 
+
+- $f(2) > f(1) + f(1) = 2x > 2(x-1)$
+- $\forall n \in \mathbb{N^*}$, 若 $f(n) > 2n > 2(n-1)$, 则 $f(n+1) > f(n) + f(1) = f(n) + 2$
+
+$\therefore \forall x \in \mathbb{N^*}, f(x) > 2x > 2(x-1)$
+
+当 $x > 1$ 且 $x \notin \mathbb{N^*}$ 时, 令 $n = \lfloor x \rfloor$, 则 $x-1 < n < x < n+1$,
+
+$\therefore f(x) > f(n) > 2n > 2(x-1)$
+
+综上, $\forall x \in (1, +\infty), f(x) > 2(x-1)$
 
 ## 选择题
 
 | 题号 | 答案 |
-| :----: | :----: |
-| 12 | A |
+|:--:|:--:|
+| 12 | A  |
 | 13 | 24 |
-| 14 | C |
-| 15 | B |
-| 16 | D |
+| 14 | C  |
+| 15 | B  |
+| 16 | D  |
