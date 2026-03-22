@@ -182,7 +182,7 @@ $\therefore a \ge 0$
 
 当 $x \in \mathbb{N^*}$ 时, 
 
-- $f(2) > f(1) + f(1) = 2x > 2(x-1)$
+- $f(2) > f(1) + f(1) = 2 \cdot 2 > 2(2 - 1)$
 - $\forall n \in \mathbb{N^*}$, 若 $f(n) > 2n > 2(n-1)$, 则 $f(n+1) > f(n) + f(1) = f(n) + 2 > 2(n + 1) > 2n$
 
 $\therefore \forall x \in \mathbb{N^*}, f(x) > 2x > 2(x-1)$
