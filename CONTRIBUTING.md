@@ -46,7 +46,7 @@ G --> C
    - 如果是发布文章, 那么一个 PR 一篇文章
    - 如果是修改信息, 那你可以一个 PR 同时修改多篇文章
 2. PR 标题需要有 `[Article]` 前缀
-3. 仅接受 Markdown (.md) 文件.若你希望提交 latex 文件, 请确保勾选 `Allow edits from maintainers`, 我们将协助转换, 但转换结果需经你确认
+3. 仅接受 Markdown (.md) 文件.若你希望提交 latex 文件, 请确保勾选 `Allow edits by maintainers`, 我们将协助转换, 但转换结果需经你确认
 4. ***必须***勾选 PR 模板中的复选框, 确认你的 PR 符合本贡献指南中的要求, 未勾选的 PR 不予合并
 
 ## Front Matter 模板
