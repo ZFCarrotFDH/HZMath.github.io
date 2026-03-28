@@ -1,0 +1,23 @@
+---
+name: 文章投稿
+about: 向我们的网站投稿文章
+title: '[Article] '
+labels: article
+---
+
+<!--
+你可以在这里添加你的 PR 描述，介绍你的文章内容和亮点，或者其他你想让我们知道的信息。
+
+如果该文章是转载的文章，你应该在这里注明原作者和授权信息，否则不予合并。
+-->
+
+---
+
+<!--
+- 请确认您的 PR 符合《投稿指南》中的要求，然后勾选下方的复选框，不要修改其它内容
+  勾选案例：- [x]
+-->
+
+<!--Checkmate-->
+
+- [ ] 我已阅读并检查，此 PR 符合 [投稿指南](https://github.com/HZMath/HZMath.github.io/blob/master/CONTRIBUTING.md) 中的要求
