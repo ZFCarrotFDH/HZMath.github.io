@@ -1,3 +1,4 @@
 # Permalinks format of each content section
-post = "/p/:slug/"
+post = "/post/:year/:month/:slug/"
 page = "/:slug/"
+external = "/external/:year/:month/:slug/"
